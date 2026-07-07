@@ -9,17 +9,19 @@ body {
 }
 
 header {
-    background: #0077b6;
-    padding: 20px;
+    background: rgba(0, 119, 182, 0.9);
+    padding: 25px;
     color: white;
+    text-align: center;
 }
 
 header h1 {
     margin: 0;
+    font-size: 32px;
 }
-
 nav {
     margin-top: 15px;
+    text-align: center;
 }
 
 nav a {
