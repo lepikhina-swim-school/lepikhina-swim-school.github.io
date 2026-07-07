@@ -2,7 +2,10 @@ body {
     margin: 0;
     font-family: Arial, sans-serif;
     color: #333;
-    background: #f5f9fc;
+    background-image: url("../images/theme_pool.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 header {
