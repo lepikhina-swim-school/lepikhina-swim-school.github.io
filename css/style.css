@@ -627,3 +627,20 @@ nav a:hover {
     margin: 0 0 30px 0;
 
 }
+
+/* ---------- BASIC INFO ---------- */
+
+.info-block {
+
+    margin-top: 25px;
+
+}
+
+
+.info-block p {
+
+    margin-bottom: 20px;
+
+    line-height: 1.6;
+
+}
