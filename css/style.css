@@ -1,28 +1,34 @@
+* {
+    box-sizing: border-box;
+}
+
+
 html, body {
     margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
 }
+
 
 body {
-    margin: 0;
-    font-family: Arial, sans-serif;
     color: #333;
-    background-image: url("../images/theme_pool.jpeg");
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
 }
 
+
+/* ---------- HEADER ---------- */
+
+
 header {
-    background: rgba(0, 119, 182, 0.9);
-    padding: 15px 30px;
+    background: rgba(0, 119, 182, 0.95);
     color: white;
+    padding: 10px 30px;
 }
 
 
 .header-top {
     display: flex;
-    align-items: center;
     justify-content: space-between;
+    align-items: center;
 }
 
 
@@ -42,7 +48,7 @@ header {
 
 .logo-block h1 {
     margin: 0;
-    font-size: 22px;
+    font-size: 24px;
     white-space: nowrap;
 }
 
@@ -56,8 +62,8 @@ header {
 
 nav {
     text-align: center;
-    margin: 15px -30px -10px;
-    padding: 15px;
+    margin: 10px -30px -10px;
+    padding: 10px;
 
     background: rgba(0,0,0,0.12);
 }
@@ -76,280 +82,227 @@ nav a:hover {
 }
 
 
-nav a:hover {
-    text-decoration: underline;
-}
 
-main {
-    max-width: 1100px;
-    margin: 30px auto;
-    background: white;
-    padding: 30px;
-    border-radius: 10px;
-}
+/* ---------- √À¿¬Õ¿ﬂ ---------- */
 
-h2 {
-    color: #0077b6;
-}
-
-footer {
-    text-align: center;
-    padding: 20px;
-    background: #003049;
-    color: white;
-}
-
-.trainer-card {
-    display: flex;
-    gap: 30px;
-    align-items: flex-start;
-}
-
-
-.trainer-card img {
-    width: 300px;
-    height: 400px;
-    object-fit: cover;
-    border-radius: 15px;
-}
-
-
-.trainer-info {
-    flex: 1;
-}
-
-
-.trainer-info h3 {
-    font-size: 30px;
-    margin-top: 0;
-    color: #0077b6;
-}
-
-
-.trainer-info h4 {
-    color: #003049;
-}
-
-
-.trainer-info li {
-    margin-bottom: 10px;
-    line-height: 1.5;
-}
-
-
-@media (max-width: 700px) {
-
-    .trainer-card {
-        flex-direction: column;
-    }
-
-
-    .trainer-card img {
-        width: 100%;
-        height: auto;
-    }
-
-}
-
-@media (max-width: 700px) {
-
-    header {
-        flex-direction: column;
-        text-align: center;
-    }
-
-
-    header h1 {
-        white-space: normal;
-        font-size: 22px;
-        margin-bottom: 20px;
-    }
-
-
-    nav {
-        position: static;
-        transform: none;
-        width: 100%;
-    }
-
-
-    nav a {
-        display: inline-block;
-        margin: 5px 8px;
-        font-size: 16px;
-    }
-
-
-    .hero-title h2 {
-        white-space: normal;
-        font-size: 36px;
-    }
-
-
-    .hero-subtitle p {
-        font-size: 18px;
-    }
-
-}
 
 .hero {
-    height: calc(100vh - 230px);
-    min-height: 450px;
 
-    margin: 0;
-    max-width: none;
-    padding: 0;
+    height: calc(100vh - 125px);
 
     background-image: url("../images/theme_pool.jpeg");
-
     background-size: cover;
     background-position: center;
 
     position: relative;
 
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+
+    text-align: center;
 
     color: white;
-    text-align: center;
-}
 
-
-.hero-title {
-    max-width: 1000px;
+    overflow: hidden;
 }
 
 
 .hero-title h2 {
+
+    margin: 0;
+
     font-size: 64px;
     line-height: 1.15;
-    font-family: Arial, sans-serif;
+
     font-weight: 700;
+
     color: white;
-    margin: 0;
 
     text-shadow:
             0 3px 10px rgba(0,0,0,0.8);
+
 }
 
 
+
 .hero-subtitle {
+
     position: absolute;
-    bottom: 50px;
-    left: 0;
+
+    bottom: 40px;
+
     width: 100%;
 
-    text-align: center;
 }
 
 
 .hero-subtitle p {
-    font-size: 30px;
-    line-height: 1.25;
-    font-family: Arial, sans-serif;
-    font-weight: 600;
-    color: white;
+
     margin: 0;
+
+    font-size: 28px;
+
+    font-weight: 600;
+
+    color: white;
 
     text-shadow:
             0 3px 8px rgba(0,0,0,0.8);
-}
-
-
-@media (max-width: 700px) {
-
-    .hero h2 {
-        font-size: 32px;
-    }
-
-
-    .hero p {
-        font-size: 16px;
-    }
-
-    .hero-title h2 {
-        white-space: normal;
-        font-size: 36px;
-    }
 
 }
 
-@media (max-width: 700px) {
+
+
+/* ---------- ƒ–”√»≈ —“–¿Õ»÷€ ---------- */
+
+
+.trainer-card {
+
+    display: flex;
+    gap: 30px;
+
+}
+
+
+.trainer-card img {
+
+    width: 300px;
+    height: 400px;
+
+    object-fit: cover;
+
+    border-radius: 15px;
+
+}
+
+
+
+.trainer-info h3 {
+
+    font-size: 30px;
+    color: #0077b6;
+
+}
+
+
+
+/* ---------- MOBILE ---------- */
+
+
+@media (max-width:700px) {
+
+
+    header {
+
+        padding: 10px 15px;
+
+    }
 
 
     .header-top {
+
         flex-direction: column;
+
         text-align: center;
+
     }
 
 
     .logo-block {
+
         flex-direction: column;
+
     }
 
 
     .logo-block img {
-        margin-right: 0;
-        margin-bottom: 10px;
+
+        margin: 0 0 10px 0;
+
     }
 
 
     .logo-block h1 {
+
         white-space: normal;
+
         font-size: 22px;
+
     }
 
 
     .phone {
-        margin-top: 15px;
+
+        margin-top: 10px;
+
         font-size: 18px;
+
     }
 
 
     nav {
+
         margin-top: 15px;
+
     }
 
 
     nav a {
+
         display: inline-block;
+
         margin: 5px 8px;
+
         font-size: 16px;
+
     }
 
-    .hero-subtitle {
-        bottom: 20px;
-        padding: 0 15px;
+
+
+    .hero {
+
+        height: calc(100vh - 250px);
+
+        min-height: 450px;
+
+        padding: 20px;
+
     }
+
+
+
+    .hero-title h2 {
+
+        font-size: 36px;
+
+        line-height: 1.2;
+
+    }
+
+
+
+    .hero-subtitle {
+
+        bottom: 25px;
+
+        padding: 0 15px;
+
+    }
+
 
 
     .hero-subtitle p {
+
         font-size: 18px;
-        line-height: 1.3;
-        margin: 0;
+
     }
 
-}
 
-@media (max-width: 700px) {
-
-    .hero {
-        min-height: 500px;
-        height: auto;
+    .trainer-card {
 
         flex-direction: column;
-        justify-content: center;
 
-        padding: 40px 15px;
-    }
-
-
-
-    .hero-subtitle {
-        position: static;
-        margin-top: 40px;
-        width: 100%;
     }
 
 }
