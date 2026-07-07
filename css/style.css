@@ -379,17 +379,21 @@ nav a:hover {
 
     width: 100%;
 
-    max-width: 1000px;
+    max-width: none;
 
-    margin: 0 auto;
+    margin: 0;
 
     padding: 40px 20px;
 
     text-align: center;
 
-    background: #eaf7fc;
-
     min-height: calc(100vh - 120px);
+
+    background-image: url("../images/theme_waves.jpeg");
+
+    background-size: cover;
+
+    background-position: center;
 
 }
 
@@ -417,13 +421,13 @@ nav a:hover {
 
     margin: 0 auto;
 
-    background: white;
+    background: rgba(255,255,255,0.96);
 
     border-radius: 20px;
 
     padding: 25px;
 
-    box-shadow: 0 5px 20px rgba(0,0,0,0.12);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.18);
 
     display: flex;
 
