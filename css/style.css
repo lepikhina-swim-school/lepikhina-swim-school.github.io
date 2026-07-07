@@ -189,32 +189,9 @@ footer {
 }
 
 .hero {
-    min-height: calc(100vh - 120px);
-    margin: 0;
-    max-width: none;
-    padding: 0;
+    height: calc(100vh - 160px);
+    min-height: 500px;
 
-    background-image:
-            linear-gradient(
-                    rgba(0,0,0,0.35),
-                    rgba(0,0,0,0.35)
-            ),
-            url("../images/theme_pool.jpeg");
-
-    background-size: cover;
-    background-position: center;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    color: white;
-    text-align: center;
-}
-
-
-.hero {
-    min-height: calc(100vh - 120px);
     margin: 0;
     max-width: none;
     padding: 0;
