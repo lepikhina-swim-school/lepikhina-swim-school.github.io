@@ -209,8 +209,14 @@ footer {
 
 
 .hero-subtitle p {
-    font-size: 20px;
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: 1px;
     color: white;
+
+    text-shadow:
+            0 2px 4px rgba(0,0,0,0.9),
+            0 4px 12px rgba(0,0,0,0.8);
 }
 
 
