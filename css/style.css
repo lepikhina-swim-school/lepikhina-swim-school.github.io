@@ -371,3 +371,103 @@ nav a:hover {
 
 
 }
+
+/* ---------- TRAINERS PAGE ---------- */
+
+
+.trainers-page {
+
+    max-width: 1100px;
+
+    margin: 30px auto;
+
+    padding: 30px;
+
+    text-align: center;
+
+}
+
+
+.page-title {
+
+    color: #0077b6;
+
+    font-size: 40px;
+
+    margin-bottom: 30px;
+
+}
+
+
+
+.trainer-card {
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+}
+
+
+
+.trainer-card img {
+
+    width: 300px;
+
+    height: 400px;
+
+    object-fit: cover;
+
+    border-radius: 15px;
+
+}
+
+
+
+.trainer-info {
+
+    max-width: 900px;
+
+    margin-top: 30px;
+
+    text-align: center;
+
+}
+
+
+
+.trainer-info h3 {
+
+    font-size: 32px;
+
+    color: #0077b6;
+
+    margin-bottom: 10px;
+
+}
+
+
+
+.trainer-info h4 {
+
+    font-size: 22px;
+
+    color: #003049;
+
+}
+
+
+
+.trainer-info ul {
+
+    display: inline-block;
+
+    text-align: left;
+
+    max-width: 850px;
+
+    line-height: 1.5;
+
+}
