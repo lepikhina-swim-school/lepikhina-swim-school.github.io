@@ -389,11 +389,7 @@ nav a:hover {
 
     min-height: calc(100vh - 120px);
 
-    background-image: url("../images/theme_waves.jpeg");
-
-    background-size: cover;
-
-    background-position: center;
+    background: white;
 
 }
 
@@ -421,13 +417,15 @@ nav a:hover {
 
     margin: 0 auto;
 
-    background: rgba(255,255,255,0.96);
+    background: white;
 
     border-radius: 20px;
 
     padding: 25px;
 
-    box-shadow: 0 8px 25px rgba(0,0,0,0.18);
+    border: 1px solid #d9eaf2;
+
+    box-shadow: 0 8px 25px rgba(0,119,182,0.15);
 
     display: flex;
 
