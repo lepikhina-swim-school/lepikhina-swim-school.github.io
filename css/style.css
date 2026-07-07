@@ -170,12 +170,7 @@ footer {
     max-width: none;
     padding: 0;
 
-    background-image:
-            linear-gradient(
-                    rgba(0,0,0,0.35),
-                    rgba(0,0,0,0.35)
-            ),
-            url("../images/theme_pool.jpeg");
+    background-image: url("../images/theme_pool.jpeg");
 
     background-size: cover;
     background-position: center;
@@ -200,7 +195,6 @@ footer {
     font-size: 52px;
     line-height: 1.2;
     color: white;
-    text-shadow: 0 3px 10px black;
 }
 
 
@@ -217,7 +211,6 @@ footer {
 .hero-subtitle p {
     font-size: 20px;
     color: white;
-    text-shadow: 0 2px 5px black;
 }
 
 
