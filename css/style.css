@@ -15,21 +15,36 @@ header {
     text-align: center;
 }
 
+header {
+    background: rgba(0, 119, 182, 0.9);
+    padding: 25px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
 header h1 {
     margin: 0;
-    font-size: 32px;
+    font-size: 28px;
+    max-width: 400px;
 }
+
+
 nav {
-    margin-top: 15px;
     text-align: center;
+    flex: 1;
 }
+
 
 nav a {
     color: white;
     text-decoration: none;
-    margin-right: 20px;
+    margin: 0 15px;
     font-size: 18px;
 }
+
 
 nav a:hover {
     text-decoration: underline;
@@ -52,4 +67,76 @@ footer {
     padding: 20px;
     background: #003049;
     color: white;
+}
+
+.trainer-card {
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+}
+
+
+.trainer-card img {
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+
+.trainer-info {
+    flex: 1;
+}
+
+
+.trainer-info h3 {
+    font-size: 30px;
+    margin-top: 0;
+    color: #0077b6;
+}
+
+
+.trainer-info h4 {
+    color: #003049;
+}
+
+
+.trainer-info li {
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+
+@media (max-width: 700px) {
+
+    .trainer-card {
+        flex-direction: column;
+    }
+
+
+    .trainer-card img {
+        width: 100%;
+        height: auto;
+    }
+
+}
+
+@media (max-width: 700px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+
+    header h1 {
+        margin-bottom: 20px;
+    }
+
+
+    nav a {
+        display: inline-block;
+        margin: 5px;
+    }
+
 }
