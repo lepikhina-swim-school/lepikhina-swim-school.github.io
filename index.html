@@ -102,6 +102,26 @@
 
 </main>
 
+<script>
+
+    const button = document.querySelector(".dropbtn");
+    const menu = document.querySelector(".dropdown-content");
+
+    button.addEventListener("click", function (e) {
+
+        e.stopPropagation();
+
+        menu.classList.toggle("show");
+
+    });
+
+    document.addEventListener("click", function () {
+
+        menu.classList.remove("show");
+
+    });
+
+</script>
 
 </body>
 </html>
