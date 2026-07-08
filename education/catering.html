@@ -47,11 +47,47 @@
 
     <nav>
 
-        <a href="index.html">Главная</a>
+        <a href="../index.html" class="home-link">Главная</a>
 
-        <a href="trainers.html">Тренеры</a>
+        <a href="../trainers.html" class="trainers-link">Тренеры</a>
 
-        <a href="about.html">Сведения об образовательной организации</a>
+        <div class="dropdown">
+
+            <button class="dropbtn">
+                Сведения об образовательной организации ▼
+            </button>
+
+            <div class="dropdown-content">
+
+                <a href="main.html">Основные сведения</a>
+
+                <a href="structure.html">Структура и органы управления</a>
+
+                <a href="documents.html">Документы</a>
+
+                <a href="management.html">Руководство</a>
+
+                <a href="education.html">Образование</a>
+
+                <a href="teachers.html">Педагогический состав</a>
+
+                <a href="facilities.html">Материально-техническое обеспечение</a>
+
+                <a href="paid.html">Платные образовательные услуги</a>
+
+                <a href="finance.html">Финансово-хозяйственная деятельность</a>
+
+                <a href="vacancies.html">Вакантные места</a>
+
+                <a href="scholarship.html">Стипендии и меры поддержки</a>
+
+                <a href="international.html">Международное сотрудничество</a>
+
+                <a href="catering.html">Организация питания</a>
+
+            </div>
+
+        </div>
 
     </nav>
 
@@ -453,7 +489,26 @@
 
 </main>
 
+<script>
 
+    const button = document.querySelector(".dropbtn");
+    const menu = document.querySelector(".dropdown-content");
+
+    button.addEventListener("click", function (e) {
+
+        e.stopPropagation();
+
+        menu.classList.toggle("show");
+
+    });
+
+    document.addEventListener("click", function () {
+
+        menu.classList.remove("show");
+
+    });
+
+</script>
 
 </body>
 

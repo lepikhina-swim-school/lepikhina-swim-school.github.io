@@ -612,8 +612,6 @@ nav a:hover {
 
 }
 
-/* Заголовок страницы О нас как на странице Тренеры */
-
 .about-page > h2:first-child {
 
     width: 100%;
@@ -642,5 +640,81 @@ nav a:hover {
     margin-bottom: 20px;
 
     line-height: 1.6;
+
+}
+
+/* ---------- Р’С‹РїР°РґР°СЋС‰РµРµ РјРµРЅСЋ ---------- */
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    position: relative;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropbtn {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    font-family: inherit;
+    padding: 0;
+}
+
+.dropbtn:hover {
+    text-decoration: underline;
+}
+
+.dropdown-content {
+    display: none;
+
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+
+    min-width: 380px;
+
+    background: white;
+
+    border-radius: 8px;
+
+    box-shadow: 0 5px 20px rgba(0,0,0,.2);
+
+    overflow: hidden;
+
+    z-index: 1000;
+}
+
+.dropdown-content a {
+
+    display: block;
+
+    color: #333;
+
+    text-decoration: none;
+
+    padding: 14px 18px;
+
+    border-bottom: 1px solid #eee;
+
+    font-size: 17px;
+}
+
+.dropdown-content a:hover {
+
+    background: #f2f8ff;
+
+}
+
+.dropdown-content.show {
+
+    display: block;
 
 }
