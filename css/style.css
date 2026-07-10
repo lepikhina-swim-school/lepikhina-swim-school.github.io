@@ -896,3 +896,46 @@ nav a:hover {
 
 
 }
+
+@media (max-width:700px) {
+
+    .dropbtn {
+
+        display: flex !important;
+
+        align-items: center !important;
+
+        justify-content: center !important;
+
+        width: 100% !important;
+
+        min-height: 35px !important;
+
+        padding: 6px 10px !important;
+
+        font-size: 14px !important;
+
+        font-weight: 600 !important;
+
+        border-radius: 8px !important;
+
+        background: rgba(255,255,255,.18) !important;
+
+        color: white !important;
+
+        text-align: center !important;
+
+        line-height: 1.2 !important;
+
+    }
+
+
+    .dropdown {
+
+        width: 90% !important;
+
+        max-width: 350px !important;
+
+    }
+
+}
