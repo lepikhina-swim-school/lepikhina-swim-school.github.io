@@ -780,33 +780,44 @@ nav {
         width: 100%;
     }
 
+    .header-top {
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .logo-block {
+        flex-direction: row;
+        align-items: center;
+    }
+
+
     .logo-block img {
-        width: 45px;
-        height: 45px;
-        margin-bottom: 5px;
+        width: 35px;
+        height: 35px;
+        margin-right: 8px;
+        margin-bottom: 0;
     }
 
 
     .logo-block h1 {
 
-        font-size: 16px;
+        font-size: 11px;
 
-        line-height: 1.2;
+        white-space: nowrap;
 
-        max-width: 300px;
-
-        text-align: center;
+        line-height: 1;
 
     }
 
 
     .phone {
 
-        font-size: 15px;
-
-        margin-top: 5px;
+        display: none;
 
     }
+
 
 
 }
