@@ -551,19 +551,21 @@ nav a:hover {
 
     nav a,
     .dropbtn {
+
         display: flex;
         align-items: center;
         justify-content: center;
 
         width: 100%;
-        min-height: 90px;
 
-        font-size: 26px;
-        font-weight: bold;
+        min-height: 45px;
 
-        padding: 20px;
+        padding: 10px 14px;
 
-        border-radius: 14px;
+        font-size: 18px;
+        font-weight: 600;
+
+        border-radius: 10px;
 
         background: rgba(255,255,255,.18);
     }
@@ -577,8 +579,10 @@ nav a:hover {
     }
 
     .dropdown-content a {
-        padding: 18px;
-        font-size: 22px;
+
+        padding: 12px 14px;
+
+        font-size: 16px;
     }
 
 }
