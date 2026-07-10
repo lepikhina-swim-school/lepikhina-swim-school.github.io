@@ -470,7 +470,13 @@ nav a:hover {
 
 }
 
+.trainer-section {
+    text-align: left;
+}
 
+.indent {
+    margin-left: 25px;
+}
 
 /* ---------- ABOUT / EDUCATION PAGES ---------- */
 
