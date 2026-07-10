@@ -516,88 +516,70 @@ nav a:hover {
 
 @media (max-width:700px) {
 
-
     .trainers-page {
-
         padding: 25px 10px;
-
     }
-
-
 
     .page-title {
-
         font-size: 32px;
-
     }
-
-
 
     .trainers-page .trainer-card {
-
         width: 95%;
-
         padding: 15px;
-
     }
-
-
 
     .trainers-page .trainer-card img {
-
         width: 280px;
-
         height: 360px;
-
     }
 
+    /* ---------- МЕНЮ ---------- */
+
     nav {
-        gap: 18px;
+        display: flex;
         flex-direction: column;
-        align-items: center;
-        padding: 20px 15px;
+        align-items: stretch;
+        gap: 15px;
+        padding: 20px 10px;
+    }
+
+    nav > a,
+    nav > .dropdown {
+        width: 100%;
     }
 
     nav a,
     .dropbtn {
-
         display: flex;
         align-items: center;
         justify-content: center;
 
-        width: 95%;
-        max-width: 500px;
+        width: 100%;
+        min-height: 90px;
 
-        min-height: 120px;
+        font-size: 26px;
+        font-weight: bold;
 
-        padding: 28px 20px;
+        padding: 20px;
 
-        font-size: 30px;
-        font-weight: 700;
+        border-radius: 14px;
 
-        border-radius: 18px;
-
-        background: rgba(255,255,255,0.18);
-    }
-
-    .dropdown {
-        width: 95%;
-        display: flex;
-        justify-content: center;
+        background: rgba(255,255,255,.18);
     }
 
     .dropdown-content {
-        width: 95%;
-        max-width: 500px;
-        min-width: auto;
+        position: static;
+        transform: none;
+        width: 100%;
+        min-width: 0;
+        margin-top: 8px;
     }
 
     .dropdown-content a {
-        padding: 26px 20px;
-        font-size: 24px;
+        padding: 18px;
+        font-size: 22px;
     }
-
-
 
 }
 
