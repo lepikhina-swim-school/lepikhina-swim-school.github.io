@@ -586,6 +586,16 @@ nav a:hover {
         font-size: 12px;
     }
 
+    .dropbtn {
+
+        font-size: 12px;
+
+        padding: 4px 6px;
+
+        line-height: 1.2;
+
+    }
+
 }
 
 /* ---------- ABOUT PAGE ---------- */
