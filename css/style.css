@@ -859,8 +859,65 @@ nav {
 
     }
 
+}
+
+@media (max-width:700px) {
+
+    nav {
+
+        display: flex;
+
+        flex-direction: column;
+
+        align-items: center;
+
+        justify-content: center;
+
+        width: 100%;
+
+        gap: 8px;
+
+        padding: 10px 5px;
+
+    }
 
 
+    nav a,
+    .dropbtn {
+
+        width: 90%;
+
+        max-width: 350px;
+
+        min-height: 35px;
+
+        padding: 6px 10px;
+
+        font-size: 14px;
+
+        text-align: center;
+
+        justify-content: center;
+
+        border-radius: 8px;
+
+    }
+
+
+    .dropdown {
+
+        width: 90%;
+
+        max-width: 350px;
+
+    }
+
+
+    .dropdown .dropbtn {
+
+        width: 100%;
+
+    }
 
 }
 
