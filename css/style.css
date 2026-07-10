@@ -680,6 +680,7 @@ nav {
     align-items: center;
     gap: 25px;
     position: relative;
+    flex-wrap: wrap;
 }
 
 .dropdown {
